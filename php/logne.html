@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>rashed</title>
+
+</head>
+
+<body>
+
+    <form action="<?php echo  $_SERVER['PHP_SELF'];?>" method="post">
+
+        <div class="sign in">
+            <div class="container">
+                <label for="ap_email" class="a-form-label">البريد الإلكتروني أو رقم الهاتف المحمول</label>
+                <input class="email" type="email" name="email">
+
+                <br>
+                <br>
+                <label for="ap_password" class="a-form-label"> كلمة المرور </label>
+
+                <input class="password" type="password" name="pass">
+                <br>
+                <br>
+                <input class="bay" type="submit" value="submit">
+            </div>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
